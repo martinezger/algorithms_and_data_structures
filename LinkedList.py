@@ -1,3 +1,4 @@
+
 class ListNode:
     
     def __init__(self, data):
@@ -114,3 +115,4 @@ class LinkedList:
                 
         self._tail = self._head
         return _reverse(self._head, self._head.next)
+    
